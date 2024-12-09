@@ -9,16 +9,13 @@ import { useState } from "react";
             setShow(!show);
         
      }
-       
-
-
     return (
       <div>
-        <button  onClick={handleShow}  >oculatar / mostrar</button>
-        {show === true && <h2>hola mundo!  </h2>   }
+         <button  onClick={handleShow}  >oculatar / mostrar</button>
+         {show === true && <h2>hola mundo!  </h2>   }
       </div>
-    );
-  }
+    )
+  };
 
 
 export default Text
