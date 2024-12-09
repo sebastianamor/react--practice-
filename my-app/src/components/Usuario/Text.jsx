@@ -1,8 +1,9 @@
 import { useState } from "react";
+import TextH2 from "./TextH2";
 
  const Text = () => {
 
-    const[show, setShow] = useState(true);
+    const[show, setShow] = useState(false);
    
      function handleShow() {
     
@@ -11,8 +12,8 @@ import { useState } from "react";
      }
     return (
       <div>
-         <button  onClick={handleShow}  >oculatar / mostrar</button>
-         {show === true && <h2>hola mundo!  </h2>   }
+         <button  onClick={handleShow}>   { show ? "ocultar" : "mostrar" }   </button>
+         {show && <TextH2/>  }
       </div>
     )
   };
