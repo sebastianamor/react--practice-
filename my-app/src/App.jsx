@@ -1,15 +1,18 @@
-import Conter from "./components/Usuario/Conter";
-import Text from "./components/Usuario/Text";
+import Pokemon  from "./Pokemon";
+
+
 function App() {
- 
+
   return (
     <div>
-      <Conter/>
-      <Text/>
+     {Pokemon}
    
     </div>
   );
 }
 
 export default App;
+
+
+
 
