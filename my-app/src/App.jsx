@@ -1,12 +1,12 @@
-import Pokemon  from "./Pokemon";
+import Pokemon from "./Pokemon";
 
 
 function App() {
 
   return (
     <div>
+     <Pokemon/>
      {Pokemon}
-   
     </div>
   );
 }
