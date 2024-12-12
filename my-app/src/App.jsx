@@ -1,12 +1,13 @@
-import Pokemon from "./Pokemon";
+
+import PokemonList from "./PokemonList";
 
 
 function App() {
 
   return (
     <div>
-     <Pokemon/>
-     {Pokemon}
+     <PokemonList/>
+     
     </div>
   );
 }
